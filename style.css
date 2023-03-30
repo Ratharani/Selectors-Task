@@ -1,0 +1,89 @@
+.sec {
+	color:red;
+}
+
+#class {
+	color:green;
+}
+	
+	
+.selection p{
+	color:blue;
+}	
+
+.section>p {
+	color:pink;
+}
+
+.select+p {
+	color:green;
+}	
+
+.sel+p +p {
+	color:red;
+}
+
+
+.link:link {
+      color:red;
+}
+.link:active {
+     color:green;
+}
+.link:hover {
+     color:pink;
+}
+.link:visited {
+      color:blue;
+}
+
+.mark li::marker {
+	color:orange;
+     font-size:20px;
+}
+
+.before ::before {
+      content:"-1";
+}	
+
+.before ::after {
+      content:"-1";
+}
+	  
+.letter ::first-letter {
+	  color:red;
+}
+
+.line ::first-line {
+	 color:green;
+}
+
+.selt ::selection {
+	 color:red;
+	 background-color:green;
+}	
+
+.altr a[target]{
+     color:red;
+}	 
+
+.atr a[target~="_top"] {
+	color:red;
+	background-color:yellow;
+}	
+
+.bar [class|="top-para"] {
+	background-color:yellow;
+}	
+
+.cap [class^="top"] {
+	color:green;
+}
+
+.dollar [class$="top"] {
+	color:blue;
+}	
+
+.star [class*="te"] {
+	 color:violet;
+} 
